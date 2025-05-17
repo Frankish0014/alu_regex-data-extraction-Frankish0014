@@ -1,4 +1,4 @@
-Form field validations.
+Regex for Form field validations.
 
 1. Email addresses:
 
@@ -7,7 +7,6 @@ Form field validations.
 2. URLs:
 
 ^https:\/\/[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
-
 
 3. Phone numbers (Various formate)
 
