@@ -6,7 +6,8 @@ Form field validations.
 
 2. URLs:
 
-^https:\/\/[a-zA-Z0-9.-].[a-zA-Z0-9]{2,}.(\/[^\s]*)?
+^https:\/\/[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+
 
 3. Phone numbers (Various formate)
 
