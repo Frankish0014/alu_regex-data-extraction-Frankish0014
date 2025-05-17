@@ -1,32 +1,32 @@
-Email addresses:
+Form field validations.
+
+1. Email addresses:
 
 ^[a-zA-Z0-9._%+_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 
-URLs:
+2. URLs:
 
 ^https:\/\/[a-zA-Z0-9.-].[a-zA-Z0-9]{2,}.(\/[^\s]*)?
 
-Phone numbers (Various formate)
+3. Phone numbers (Various formate)
 
 ^(\(\d{3}\)|\d{3})[-. ]\d{3}[-. ]\d{4}$
 
 
-Credit Card numbers
+4. Credit Card numbers
 ^\d{4}[-. ]\d{4}[-. ]\d{4}[-. ]\d{4}$
 
-Time
+5. Time
 
 ^([01]?[0-9]|2[0-3]):[0-5][0-9]$
 
 
-Html Tags
+6. Html Tags
 <[^>]+>
 
-HashTags
+7. HashTags
 #\w+
 
-Currency amounts
+8. Currency amounts
 
 ^[^\d\s-]?\d{1,3}(,\d{3})*(\.\d{2})?$|^[^\d\s-]?\d+(\.\d{2})?$
-
-
