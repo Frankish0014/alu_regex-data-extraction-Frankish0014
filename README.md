@@ -1,6 +1,6 @@
 Form field validations.
 
-Check out how the various regex would work.
+Check out how the various regex would work
 
 1. Email addresses: ^[a-zA-Z0-9._%+_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 The regext provided for this makes it possible for a user to enter any email in any formate like f.ishimwe@alustudent.com, ishimwefrank711@gmail.com or any kind, but it's mandatory to have a some charactors before the @ and after. And always there has to be characters after a dot (.) and it's not allowed to have spaces in the emails. 
